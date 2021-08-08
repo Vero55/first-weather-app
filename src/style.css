@@ -57,24 +57,26 @@ li:first-letter {
   line-height: 1;
 }
 
-.weather-temperature .divider {
-  position: relative;
-  font-size: 16px;
-  top: -20px;
-}
-
-.divider {
-  line-height: 24px;
-  margin-bottom: 0px;
-  margin-left: 4px;
-  margin-right: 4px;
-  margin-top: 0px;
-}
-
 .units {
   position: relative;
   text-decoration: none;
   color: rgb(32, 33, 36);
   font-size: 16px;
-  top: -18px;
+  top: -35px;
+}
+
+.units:active {
+  color: rgb(65, 167, 125);
+}
+
+.units:focus {
+  color: rgb(65, 167, 125);
+}
+
+.units-divider,
+.units-divider:active,
+.units-divider:focus {
+  position: relative;
+  color: rgb(32, 33, 36);
+  top: -37px;
 }
