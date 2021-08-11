@@ -8,8 +8,15 @@ body {
 
 .custom-gradient {
   background: #ebd9ee;
-  background: -webkit-linear-gradient(to right, #e8cdf0, #c28ac7, ##a6badf);
-  background: linear-gradient(to right, #e8cdf0, #c28ac7, #a6badf);
+  background: -webkit-linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.048),
+    #e6d7eb,
+    #ec9db571,
+    #5f97ec5d,
+    #6c0ee75d
+  );
+  background: linear-gradient(to right, #efe9f109, #c79b8a91, #91bde5b4);
 }
 
 .background-image {
