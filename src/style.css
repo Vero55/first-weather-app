@@ -1,5 +1,23 @@
 body {
-  font-family: arial, sans-serif;
+  font-family: "Hind Siliguri", sans-serif;
+
+  background: #a18ece;
+  background: -webkit-linear-gradient(to right, #a18ece, #ce84a3, #a18ece);
+  background: linear-gradient(to right, #a18ece, #ce84a3, #a18ece);
+}
+
+.custom-gradient {
+  background: #ebd9ee;
+  background: -webkit-linear-gradient(to right, #e8cdf0, #c28ac7, #c97aaf);
+  background: linear-gradient(to right, #e8cdf0, #c28ac7, #c97aaf);
+}
+
+.background-image {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
 h1 {

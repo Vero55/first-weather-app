@@ -1,4 +1,5 @@
 function formatDate(timestamp) {
+  console.log(timestamp.data);
   let date = new Date(timestamp);
   let hours = date.getHours();
   if (hours < 10) {
@@ -8,7 +9,6 @@ function formatDate(timestamp) {
   if (minutes < 10) {
     minutes = `0${minutes}`;
   }
-
   let days = [
     "Sunday",
     "Monday",
@@ -30,12 +30,6 @@ function formatDay(timestamp) {
   return days[day];
 }
 
-//function getForecast(coordinates) {
-// let apiKey = "5f472b7acba333cd8a035ea85a0d4d4c";
-// let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${coordinates.lat}&lon=${coordinates.lon}&appid=${apiKey}&units=metric`;
-// axios.get(apiUrl).then(displayForecast);
-//}
-
 function displayTemperature(response) {
   console.log(response.data);
   let temperatureElement = document.querySelector("#temperature");
@@ -50,7 +44,6 @@ function displayTemperature(response) {
   windElement.innerHTML = Math.round(response.data.wind.speed);
   let dateElement = document.querySelector("#date");
   dateElement.innerHTML = formatDate(response.data.dt * 1000);
-
   let iconElement = document.querySelector("#icon");
   iconElement.setAttribute(
     "src",
