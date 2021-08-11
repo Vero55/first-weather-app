@@ -8,8 +8,8 @@ body {
 
 .custom-gradient {
   background: #ebd9ee;
-  background: -webkit-linear-gradient(to right, #e8cdf0, #c28ac7, #c97aaf);
-  background: linear-gradient(to right, #e8cdf0, #c28ac7, #c97aaf);
+  background: -webkit-linear-gradient(to right, #e8cdf0, #c28ac7, ##a6badf);
+  background: linear-gradient(to right, #e8cdf0, #c28ac7, #a6badf);
 }
 
 .background-image {
@@ -97,4 +97,22 @@ li:first-letter {
   position: relative;
   color: rgb(32, 33, 36);
   top: -37px;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
 }
