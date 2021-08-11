@@ -28,14 +28,21 @@ body {
   z-index: -1;
 }
 
-#searchButton,
-#localWeatherButton {
+#searchButton {
+  font-size: 20px;
   background-color: Transparent;
   background-repeat: no-repeat;
   cursor: pointer;
   overflow: hidden;
   outline: whitesmoke;
   border: 1px solid white;
+}
+
+#localWeatherButton {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border: none;
 }
 
 h1 {
@@ -132,4 +139,11 @@ li:first-letter {
 
 .weather-forecast-temperatures {
   font-size: 13px;
+}
+
+.coder-information {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  line-height: -30px;
 }
