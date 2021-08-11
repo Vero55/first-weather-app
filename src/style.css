@@ -89,6 +89,10 @@ li:first-letter {
   top: -35px;
 }
 
+.text-left {
+  text-align: left !important;
+}
+
 .units:active {
   color: rgb(174, 63, 196);
 }
