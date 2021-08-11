@@ -1,3 +1,5 @@
+//hosted on: https://app.netlify.com/sites/pensive-shannon-07db97/overview
+
 function formatDate(timestamp) {
   console.log(timestamp.data);
   let date = new Date(timestamp);
@@ -130,12 +132,12 @@ function getCurrentPosition(event) {
 let currentLocationButton = document.querySelector("#localWeatherButton");
 currentLocationButton.addEventListener("click", getCurrentPosition);
 
-function displayFahrenheitTemperature(event) {
-  event.preventDefault();
-  let fahrenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
-  let temperatureElement = document.querySelector("#temperature");
-  temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
-}
+//function displayFahrenheitTemperature(event) {
+//  event.preventDefault();
+//  let fahrenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
+//  let temperatureElement = document.querySelector("#temperature");
+//  temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
+//}
 
 function displayCelsiusTemperature(event) {
   event.preventDefault();
@@ -148,8 +150,8 @@ let celsiusTemperature = null;
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
 
-let fahrenheit = document.querySelector("#fahrenheit");
-fahrenheit.addEventListener("click", displayFahrenheitTemperature);
+//let fahrenheit = document.querySelector("#fahrenheit");
+//fahrenheit.addEventListener("click", displayFahrenheitTemperature);
 
 let celsius = document.querySelector("#celsius");
 celsius.addEventListener("click", displayCelsiusTemperature);
