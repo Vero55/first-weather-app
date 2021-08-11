@@ -4,6 +4,7 @@ body {
   background: #a18ece;
   background: -webkit-linear-gradient(to right, #a18ece, #ce84a3, #a18ece);
   background: linear-gradient(to right, #a18ece, #ce84a3, #a18ece);
+  background-repeat: repeat-y;
 }
 
 .custom-gradient {
@@ -25,7 +26,6 @@ body {
   width: 100%;
   height: 200%;
   z-index: -1;
-  background-repeat: repeat-y;
 }
 
 h1 {
