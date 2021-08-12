@@ -37,16 +37,15 @@ body {
   overflow: hidden;
   outline: whitesmoke;
   border: 1px solid white;
-  border-radius: 20px;
+  border-radius: 50px;
 }
 
 #localWeatherButton {
   background-color: Transparent;
   background-repeat: no-repeat;
   cursor: pointer;
-  utline: whitesmoke;
   border: 1px solid white;
-  border-radius: 20px;
+  border-radius: 50px;
 }
 
 h1 {
