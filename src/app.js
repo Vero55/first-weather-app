@@ -156,5 +156,3 @@ form.addEventListener("submit", handleSubmit);
 let celsius = document.querySelector("#celsius");
 celsius.addEventListener("click", displayCelsiusTemperature);
 
-//search("New York");
-//displayForecast("Budapest");
