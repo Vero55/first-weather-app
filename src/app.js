@@ -158,6 +158,3 @@ celsius.addEventListener("click", displayCelsiusTemperature);
 
 //search("New York");
 //displayForecast("Budapest");
-
-displayTemperature () 
-  navigator.geolocation.getCurrentPosition(retrievePosition);
