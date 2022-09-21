@@ -157,4 +157,4 @@ let celsius = document.querySelector("#celsius");
 celsius.addEventListener("click", displayCelsiusTemperature);
 
 //search("New York");
-//displayForecast();
+//displayForecast("Budapest");
